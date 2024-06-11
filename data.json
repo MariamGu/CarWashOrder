@@ -1,0 +1,87 @@
+{
+    "washers": [
+        {
+            "id": 1,
+            "name": "Keke",
+            "experience": 10,
+            "mobile": "4673622672",
+            "available": true
+        },
+        {
+            "id": 2,
+            "name": "Oli",
+            "experience": 3,
+            "mobile": "71836278",
+            "available": true
+        },
+        {
+            "id": 3,
+            "name": "John",
+            "experience": 7,
+            "mobile": "572898765456",
+            "available": false
+        },
+        {
+            "id": 4,
+            "name": "Nick",
+            "experience": 5,
+            "mobile": "123456432",
+            "available": true
+        }
+    ],
+    "car_washes": [
+        {
+            "id": 1,
+            "type": "Full",
+            "duration": 40,
+            "price": 35.0
+        },
+        {
+            "id": 2,
+            "type": "External",
+            "duration": 20,
+            "price": 20.0
+        },
+        {
+            "id": 3,
+            "type": "Internal",
+            "duration": 20,
+            "price": 20.0
+        }
+    ],
+    "orders": [
+        {
+            "order_id": 1,
+            "car_wash": {
+                "id": 2,
+                "type": "External",
+                "duration": 20,
+                "price": 20.0
+            },
+            "washer": {
+                "id": 3,
+                "name": "John",
+                "experience": 7,
+                "mobile": "572898765456",
+                "available": false
+            },
+            "customer_name": "Maku",
+            "order_time": "2024-06-11T22:11:30.431686",
+            "status": "ongoing"
+        }
+    ],
+    "users": [
+        {
+            "username": "Ana",
+            "role": "admin",
+            "mobile": "1345666555",
+            "balance": 0.0
+        },
+        {
+            "username": "Maku",
+            "role": "user",
+            "mobile": "36283627",
+            "balance": 80.0
+        }
+    ]
+}
